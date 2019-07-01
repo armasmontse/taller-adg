@@ -1,0 +1,32 @@
+.home {
+	$footer-height: 89px;
+
+	&__image,
+	&__slider {
+		width: 100%;
+		height: 600px;
+		// height: calc(100vh - #{$body-pt} - #{$footer_height});
+		 height: 100vh;
+		background-color: #eee;
+		@include bg-cover;
+		@include under(sm) {
+			height: 300px;
+			// height: calc(100vh - #{$body-pt-sm} - #{$footer_height});
+			height: 100vh;
+		}
+
+		& ~ .footer {
+			padding-top: 30px;
+			padding-bottom: 20px;
+		}
+
+		& ~ .arrow-up {
+			display: none;
+		}
+
+		.swiper-button-prev,
+		.swiper-button-next {
+			display: none;
+		}
+	}
+}

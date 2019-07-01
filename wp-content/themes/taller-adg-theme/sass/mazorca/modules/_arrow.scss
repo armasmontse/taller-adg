@@ -1,0 +1,26 @@
+.arrow {
+	&-up {
+		
+		display: none ;
+		$arrow-break: 1577px;
+		cursor: pointer;
+		@include center('y');
+		position: fixed;
+		@include over($arrow-break) {
+			left: 73px;
+		}
+		width: 68px;
+		height: 68px;
+		overflow: visible;
+
+		@include under($arrow-break) {
+			width: 45px;
+			height: 45px;
+			top: initial;
+			// transform: translateY(0);
+			left: 12px;
+			bottom: 0;
+		}
+		z-index: 99;
+	}
+}

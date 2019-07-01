@@ -1,0 +1,68 @@
+.slider {
+	//opacity: 0;//corrige bug de Swiper: como display none, pero no rompe swiper.  El display none funciona bien si se corre en el js, que es lo que hacemos
+	position: fixed;
+	top: 0px;
+	@include under (sm) {
+		top: $body-pt-sm;
+	}
+	bottom: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: #FFF;
+	
+	.swiper-slide {
+		padding: 100px 100px;
+		height: 100%;
+		@include under (sm) {
+			padding: 20px 50px;
+		}
+	}
+
+	&__close {
+		width: 15px;
+	    height: 15px;
+	    position: relative;
+	    z-index: 999999999999;
+	    bottom: 95%;
+	    left: 95%;
+	    cursor: pointer;
+	    @include under (sm) {
+			left: 90%;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		background-image: none;
+		padding: 10px;
+		width: 50px;
+		height: 50px;
+		.arrow-left-st0,
+		.arrow-right-st0 {
+			fill: c(white);
+			cursor: pointer;
+		}
+	}
+
+	.swiper-button-next {
+		right: 50px;
+		@include under (sm) {
+			right: 10px;
+		}
+	}
+	.swiper-button-prev{
+		left: 50px;
+		@include under (sm) {
+			left: 10px;
+		}
+	}
+
+}

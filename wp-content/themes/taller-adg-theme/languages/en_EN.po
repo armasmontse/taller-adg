@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: taller-adg\n"
+"POT-Creation-Date: 2017-12-12 11:38-0600\n"
+"PO-Revision-Date: 2017-12-12 11:38-0600\n"
+"Last-Translator: Isaac Vargas Lara <isaac@elcultivo.mx>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: functions\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: functions/admin/metaboxes/Cltvo_Galeria_Taller.php:10
+#: functions/admin/posttypes/Cltvo_Page.php:6 functions/special_pages.php:14
+msgid "acerca"
+msgstr "about"
+
+#: functions/admin/metaboxes/Cltvo_Inicio_Slider.php:10
+#: functions/admin/posttypes/Cltvo_Page_Inicio.php:9
+#: functions/special_pages.php:13
+msgid "inicio"
+msgstr "home"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:32
+#: functions/admin/posttypes/Cltvo_Page_Contacto.php:9
+#: functions/special_pages.php:15 inc/footer-single.php:2 inc/footer.php:2
+msgid "contacto"
+msgstr "contact"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:66
+msgid "Teléfono"
+msgstr "Phone"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:80
+msgid "Correo"
+msgstr "Email"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:94
+msgid "Dirección"
+msgstr "Address"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:97
+msgid "Dirección linea 1"
+msgstr "Address line 1"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:98
+msgid "Dirección linea 2"
+msgstr "Address line 2"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:103
+msgid "Latitud y Longitud"
+msgstr "Latitude and longitude"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:105
+msgid ""
+"Para el mapa: Si por alguna razón la dirección no posiciona correctamente el "
+"marcador en el mapa, será necesario ingresar las coordenadas exactas del "
+"lugar, de lo contrario no es necesario ingresar nada en estos campos"
+msgstr ""
+"For the map: If the address marker is not positioned correctly on the map, "
+"it will be necessary to enter the place exact coordinates, otherwise it is "
+"not necessary to enter anything in these fields"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:108
+msgid "Latitud"
+msgstr "Latitude"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:109
+msgid "Longitud"
+msgstr "Longitude"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:143
+msgid "Cuenta:"
+msgstr "Account:"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:154
+msgid "Link:"
+msgstr "Link:"
+
+#: functions/admin/posttypes/customs/Cltvo_Architecture.php:34
+#: functions/special_pages.php:16
+msgid "arquitectura"
+msgstr "architecture"
+
+#: functions/admin/posttypes/customs/Cltvo_Graphic.php:34
+#: functions/special_pages.php:18
+msgid "diseno-grafico"
+msgstr "graphic-design"
+
+#: functions/admin/posttypes/customs/Cltvo_Interior.php:34
+#: functions/special_pages.php:17
+msgid "diseno-interior"
+msgstr "interior-design"
+
+#: functions/admin/posttypes/customs/Cltvo_Medios.php:32
+#: functions/special_pages.php:20
+msgid "medios"
+msgstr "media"
+
+#: functions/admin/posttypes/customs/Cltvo_Premios.php:37
+#: functions/special_pages.php:19
+msgid "premios"
+msgstr "awards"
+
+#: functions/general/make-single.php:49
+msgid "Nombre del Proyecto"
+msgstr "Project's name"
+
+#: functions/general/make-single.php:57
+msgid "Tipo"
+msgstr "Type"
+
+#: functions/general/make-single.php:65
+msgid "Locación"
+msgstr "Location"
+
+#: functions/general/make-single.php:80
+msgid "Estatus"
+msgstr "Status"
+
+#: functions/general/make-single.php:88 inc/_premios.php:22
+msgid "Fecha"
+msgstr "Date"
+
+#: functions/general/make-single.php:96
+msgid "Fotografía"
+msgstr "Photography"
+
+#: functions/general/make-single.php:112
+msgid "Colaboraciones"
+msgstr "Colaborations"
+
+#: functions/general/make-single.php:122 functions/special_pages.php:19
+msgid "Premios"
+msgstr "Awards"
+
+#: functions/general/make-single.php:139
+msgid "Concepto"
+msgstr "Concept"
+
+#: functions/special_pages.php:13
+msgid "Inicio"
+msgstr "Home"
+
+#: functions/special_pages.php:14
+msgid "Acerca"
+msgstr "About"
+
+#: functions/special_pages.php:15
+msgid "Contacto"
+msgstr "Contact"
+
+#: functions/special_pages.php:16
+msgid "Arquitectura"
+msgstr "Architecture"
+
+#: functions/special_pages.php:17
+msgid "Diseño Interior"
+msgstr "Interior Design"
+
+#: functions/special_pages.php:18
+msgid "Diseño Gráfico"
+msgstr "Graphic Design"
+
+#: functions/special_pages.php:20
+msgid "Medios"
+msgstr "Media"
+
+#: functions/theme/functions.php:26
+msgid "Menú"
+msgstr "Menu"
+
+#: inc/_premios.php:9
+msgid "Nombre de premio"
+msgstr "Award Name"
+
+#: inc/_premios.php:12
+msgid "Premio"
+msgstr "Award"
+
+#: inc/_premios.php:15
+msgid "Proyecto Premiado"
+msgstr "Award-Winning Project"
+
+#: inc/menu.php:36 inc/menu.php:68
+msgid "about"
+msgstr "about"
+
+#: inc/menu.php:36 inc/menu.php:68
+msgid "About"
+msgstr "About"
+
+#: inc/menu.php:38 inc/menu.php:70
+msgid "architecture"
+msgstr "architecture"
+
+#: inc/menu.php:38 inc/menu.php:70
+msgid "Architecture"
+msgstr "Architecture"
+
+#: inc/menu.php:40 inc/menu.php:72
+msgid "interior-design"
+msgstr "interior-design"
+
+#: inc/menu.php:40 inc/menu.php:72
+msgid "Interior Design"
+msgstr "Interior Design"
+
+#: inc/menu.php:42 inc/menu.php:74
+msgid "graphic-design"
+msgstr "graphic-design"
+
+#: inc/menu.php:42 inc/menu.php:74
+msgid "Graphic Design"
+msgstr "Graphic Design"
+
+#: inc/menu.php:44
+msgid "media"
+msgstr "media"
+
+#: inc/menu.php:44
+msgid "Media"
+msgstr "Media"
+
+#: inc/menu.php:46
+msgid "awards"
+msgstr "awards"
+
+#: inc/menu.php:46
+msgid "Awards"
+msgstr "Awards"
+
+#: inc/menu.php:48 inc/menu.php:76
+msgid "contact"
+msgstr "contact"
+
+#: inc/menu.php:48 inc/menu.php:76
+msgid "Contact"
+msgstr "Contact"

@@ -1,0 +1,19 @@
+.page {
+	&__image {
+		width: 100%;
+		height: 600px;
+		// height: calc(100vh - #{$body-pt});
+		height: 100vh;
+		@include bg-cover;
+		@include under(sm) {
+			height: 300px;
+			// height: calc(100vh - #{$body-pt-sm});
+			height: 100vh;
+		}
+	}
+
+	&__divisor{
+		border-bottom: solid 1px #555;
+		width: 100%;
+	}
+}

@@ -1,0 +1,9 @@
+*.DS_Store
+/.sass-cache/
+*.scssc
+wp-config.php
+wp-snapshots/
+wp-content/uploads/
+wp-content/themes/taller-adg-theme/node_modules
+config.codekit
+.htaccess

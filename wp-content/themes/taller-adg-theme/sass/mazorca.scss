@@ -1,0 +1,31 @@
+@charset "UTF-8";
+//===Mazorca Core===//
+@import "node_modules/mazorca-core/_mazorca-core.scss";
+
+//===Configs===//
+@import "mazorca/config/_config";
+
+//===Vendor===//Css begins compling here
+@import "vendor/_swiper.scss";
+
+$pt: 60px;
+$pb: 60px;
+$pb-sm: 17px;
+$main-height: 23px;
+$body-pt: $pt + $pb + $main-height;
+$body-pt-sm: $pb-sm*2 + $main-height;
+
+body {
+	// padding-top: $body-pt;
+	@include under(sm) {
+	// 	padding-top: $body-pt-sm;
+	 }
+}
+
+
+//===Mazorca===//
+@import "mazorca/_elements";
+@import "mazorca/_grid";//
+@import "mazorca/_components";
+@import "mazorca/_theme-helpers";
+@import "mazorca/_modules";
